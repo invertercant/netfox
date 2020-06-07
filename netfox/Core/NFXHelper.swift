@@ -410,7 +410,7 @@ extension String
         
         // Now, let's make sure NFXProtocol is always included in the default and ephemeral configuration(s)
         // Adding it twice won't be an issue anymore, because we've de-duped the setter
-        swizzleDefault()
+        //swizzleDefault()
         swizzleEphemeral()
     }
     
